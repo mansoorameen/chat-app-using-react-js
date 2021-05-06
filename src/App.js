@@ -24,7 +24,10 @@ function App() {
 
   return (
     <div className="App">
-      <header></header>
+      <header>
+      <h1>Chat 💬</h1>
+        <SignOut />
+      </header>
       <section>{user ? <ChatRoom /> : <SignIn />}</section>
     </div>
   );
